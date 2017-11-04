@@ -22,12 +22,11 @@ struct {
 
 
 int main(void) {
-	/*
 	int j, sum;
         sum = 2;
 	for (j = 0; j <= 4; j++)
 		sum += 1 << (2 << j);
-        */
+
 	const int  LENGTH = 10;
 	const int  WIDTH = 5;
 	const char NEWLINE = '\n';
