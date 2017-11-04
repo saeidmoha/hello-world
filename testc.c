@@ -33,9 +33,11 @@ int main(void) {
 	const char NEWLINE = '\n';
 	static int i = 5; /* local static variable */
 	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	/*
 	time_t biggest = 0x7FFFFFFF;
 	printf("biggest = %s \n", ctime(&biggest) );
 	printf("biggest = %s \n", asctime(gmtime(&biggest)) );
 	printf("%c", NEWLINE);
+	*/
 	return EXIT_SUCCESS;
 }
