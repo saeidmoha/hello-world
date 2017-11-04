@@ -22,10 +22,10 @@ struct {
 
 
 int main(void) {
-	int i, sum;
-    sum = 2;
-	for (i = 0; i <= 4; i++)
-		sum += 1 << (2 << i);
+	int j, sum;
+        sum = 2;
+	for (j = 0; j <= 4; j++)
+		sum += 1 << (2 << j);
 
 	const int  LENGTH = 10;
 	const int  WIDTH = 5;
